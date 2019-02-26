@@ -1,0 +1,56 @@
+body{
+    background-color: azure;
+}
+.red{
+    color: red;
+}
+h1{
+    text-align: center;
+}
+h1,h4{
+    color: rgb(62, 114, 73);
+}
+h4{
+    font-size: 20px;
+}
+img{
+    border: 4px solid black;
+    margin: 10px;
+}
+div{
+   display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   align-content: center;
+   justify-content: space-evenly;
+   
+}
+#like{
+    font-size: 40px;
+    margin: 10px;
+}
+#like, #btn{
+    display: flex;
+    justify-content: center;
+}
+#Bag, #T-shirt, #Shoes
+{
+    display: block;
+    margin: auto;
+    
+}
+img{
+    width: 150px;
+}
+
+#btn{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: auto;
+  cursor: pointer;
+}
